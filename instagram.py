@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-audience = ['iamarshadmalik']
+audience = ['Enter_senders_account']
 
 
 class InstaBot:
@@ -61,5 +61,5 @@ class InstaBot:
             time.sleep(2)
 
 
-ed = InstaBot('_nkvii', '$hahidali786', 'fk u')
+ed = InstaBot('Enter_your_username', 'Enter_your_password', 'Enter your message')
 ed.login()
